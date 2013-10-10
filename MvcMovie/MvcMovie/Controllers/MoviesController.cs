@@ -119,6 +119,7 @@ namespace MvcMovie.Controllers
 
         public ActionResult SearchIndex(string movieGenre, string searchString)
         {
+            string valor = "modificaciòn en proyecto";
             var GenreLst = new List<string>();
 
             var GenreQry = from d in db.Movies
