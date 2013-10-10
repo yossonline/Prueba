@@ -24,6 +24,7 @@ namespace MvcMovie.Controllers
 
         public ActionResult Contact()
         {
+            int valor = 0;
             ViewBag.Message = "Your contact page.";
 
             return View();
